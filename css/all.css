@@ -1,0 +1,178 @@
+/* // utilities */
+.container {
+  max-width: 1200px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
+.bg-cover {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+
+.white {
+  color: white;
+}
+
+/* // utilities */
+
+.banner {
+  background-image: url(../images/Hero.png);
+  height: 492px;
+  width: 100%;
+  flex-direction: column;
+  position: relative;
+
+}
+
+.banner_title {
+  font-size: 40px;
+  color: #FFFFFF;
+  letter-spacing: 3.89px;
+  padding-top: 89px;
+  margin-bottom: 96px;
+}
+
+.bar {
+  height: 48px;
+  width: 44%;
+  border: 3px solid #FFFFFF;
+  border-radius: 3px;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #000000;
+  line-height: 21px;
+}
+
+.menu {
+  height: 146px;
+  width: 78%;
+  position: absolute;
+  bottom: 0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+  border-radius: 5px;
+  background: #FFFFFF;
+  z-index: 2;
+}
+
+.menu p {
+  font-size: 18px;
+  color: #000000;
+  margin-top: 20px;
+  margin-left: 26px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+
+.menu_box {
+  padding: 15px 20px;
+  font-size: 20px;
+}
+
+.b1 {
+  background: #8A82CC;
+  border-radius: 5px;
+}
+
+.b2 {
+  background: #FFA782;
+  border-radius: 5px;
+}
+
+.b3 {
+  background: #F5D005;
+  border-radius: 5px;
+}
+
+.b4 {
+  background: #559AC8;
+  border-radius: 5px;
+}
+
+.space_block {
+  width: 100%;
+  height: 100px;
+  background: white;
+  border-bottom: 5px dotted #559AC8;
+  position: absolute;
+  bottom: -50px;
+}
+
+.title {
+  width: 100%;
+  font-size: 36px;
+  color: #8A82CC;
+  margin-bottom: 24px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+
+.content {
+  flex-wrap: wrap;
+  width: 98%;
+  margin: 0 auto;
+
+}
+
+.content_block {
+  width: 48%;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+}
+
+.pic {
+  width: 100%;
+  height: 155px;
+  background-image: url("http://khh.travel/FileArtPic.ashx?id=705&w=1280&h=960");
+  align-items: flex-end;
+}
+
+.Nametitle {
+  color: white;
+  font-size: 24px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.Zonetitle {
+  color: white;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.info,
+.info2 {
+  margin: 10px 20px;
+}
+
+.infoIcon {
+  margin-right: 10px;
+  width: 20px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}

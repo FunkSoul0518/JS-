@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/BMI.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="BMI">
+        <div class="pic"><img src="images/BMICLogo.png" alt="" /></div>
+        <div class="textIn">
+          <label for="height" class="white">身高 cm</label>
+          <input type="text" id="height" placeholder="請輸入身高" />
+          <label for="weight" class="white">體重 kg</label>
+          <input type="text" id="weight" placeholder="請輸入體重" />
+        </div>
+
+        <div class="bmi_btn">
+          <input type="button" value="看結果" class="click" />
+          <div id="bmi_result"></div>
+          <p id="status"></p>
+        </div>
+      </div>
+
+      <div class="content">
+        <h2>BMI紀錄</h2>
+        <ul class="contentblock"></ul>
+      </div>
+    </div>
+    <script src="js/BMI.js"></script>
+  </body>
+</html>

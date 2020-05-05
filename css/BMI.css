@@ -1,0 +1,189 @@
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 微軟正黑體;
+}
+
+
+
+/* ut */
+.white {
+  color: white;
+}
+
+.container {
+  max-width: 1224px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
+.BMI {
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #424242;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.textIn {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+}
+
+.textIn label {
+  font-size: 18px;
+  color: #FFD366;
+}
+
+#height,
+#weight {
+  background: rgba(255, 255, 255, 0.18);
+  border: 2px solid #FFD366;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+::placeholder {
+
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.50);
+}
+
+.click {
+  background: #FFD366;
+  font-size: 24px;
+  color: #424242;
+  border: none;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  outline: none;
+  cursor: pointer;
+  position: fixed;
+  right: 200px;
+  top: 100px;
+}
+
+.click:hover {
+  background: #FFD366;
+  box-shadow: 0 1px 6px 3px rgba(255, 196, 50, 0.64);
+}
+
+.click:active {
+  background: #DEA821;
+}
+
+.content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.content h2 {
+  font-size: 24px;
+  color: #424242;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.content li {
+  /* background-color: gray; */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+/* .bmi_btn {
+  position: relative;
+} */
+
+.btn_hide {
+  display: none;
+}
+
+.btnChange {
+  border: 5px solid;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0; */
+  margin: auto;
+  display: block;
+  position: fixed;
+  right: 200px;
+  top: 100px;
+  /* margin-right: 20px; */
+}
+
+.change_Hide {
+  display: none;
+}
+
+.btnChange p {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+}
+
+.reset {
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: white;
+  font-size: 6px;
+  color: black;
+  position: fixed;
+  right: 237px;
+  top: 115px;
+}
+
+.reset:hover {
+  background-color: black;
+  color: white
+}
+
+.gray {
+  color: gray
+}
+
+.pink {
+  color: pink
+}
+
+.lightpink {
+  color: #FF359A
+}
+
+.green {
+  color: #86D73F
+}
+
+.orange {
+  color: #FF982D
+}
+
+.darked {
+  color: #750000
+}
+
+.red {
+  color: #2F0000
+}
